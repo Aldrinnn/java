@@ -40,3 +40,55 @@ public class MyClass {
         
     }
 }
+
+
+
+
+public class Test1 {
+	public static void main(String[] args)
+	{
+		System.out.println(“The max int value is: ” + (Integer.MAX_VALUE + 1));
+		System.out.println(“The min int value is: ” + (Integer.MIN_VALUE - 1));
+		
+	int num = 72;
+	String binNum = 		Integer.toBinaryString(num);
+	System.out.println(“The number ” + num + “ in binary is ” + binNum);
+
+	int num2 = 28 
+int++
+	
+
+
+
+    }
+}
+
+
+
+
+
+public class MyClass {
+    public static void main(String args[]) {
+      
+    int salary;
+    
+    Scanner input1 = new Scanner(System.in);
+    System.out.println("What is base salary");
+    salary = input1.nextInt();
+
+    System.out.println("Your base salary is: " + salary);
+    
+    salary+= 15000;
+    System.out.println("Your salary with signing bonus is: " + salary);
+    
+    salary -= 10000;
+    System.out.println("Your salary wiht signing bonus after donaation after taxes is:" + salary);
+    
+    salary /= 3;
+    System.out.println("Each account will receive a deposit of: " + salary);
+    
+    salary %= 10;
+    System.out.println("The last digit of your deposit amount is: " + salary);
+    
+    }
+    }
