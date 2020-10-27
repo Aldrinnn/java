@@ -43,7 +43,6 @@ class Account
     }
 }
 
-package com.company.Topic_5;
 
 public class Customer
 {
